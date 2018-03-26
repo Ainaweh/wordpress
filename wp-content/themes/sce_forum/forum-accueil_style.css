@@ -1,0 +1,61 @@
+/*Annulation de mises en forme (reset)*/
+*
+{ margin:0px;
+
+}
+a
+{ text-decoration:none;
+}
+
+h1
+{ color: white;
+}
+
+body
+{ /*box-sizing: border-box;*/
+  background-color: #093735;
+}
+
+body
+{ text-align: center;
+}
+
+.container
+{ display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6A9B89;
+  width: 90vw;
+  height: 90vh;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+section
+{ background-color: #C1E0DD;
+  width: 100%;
+  border-top: 5px;
+  border: 2px solid #093735;
+}
+
+section a
+{ text-decoration: none; }
+
+#bandeau
+{ text-align: left;
+  /*border: 2px solid #093735;*/
+  border-bottom: 0px;
+  background-color: #5B8076;
+  padding-left: 30px;
+  color: white;
+}
+
+#titre, #date, #new_msg
+{ border-left: 2px solid #093735;
+  border-top: 2px solid #093735;
+  color: #093735;
+}
+
+#titre
+{ text-align: left;
+}
